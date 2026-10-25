@@ -1,0 +1,13 @@
+Experiment,Condition,Feature_Set,Model,CV_Accuracy_Mean,CV_Accuracy_Std,CV_Score,Test_Accuracy,Test_Precision,Test_Recall,Test_F1
+1,Condition A (Full Text),TF-IDF,Naive Bayes,0.9551,0.0114,0.9551 +/- 0.0114,0.9662,0.9704,0.9625,0.9665
+2,Condition A (Full Text),TF-IDF,Decision Tree,0.957,0.0061,0.9570 +/- 0.0061,0.9687,0.9752,0.9625,0.9689
+3,Condition A (Full Text),TF-IDF,k-NN,0.9518,0.0067,0.9518 +/- 0.0067,0.9605,0.9394,0.9853,0.9618
+4,Condition A (Full Text),Handcrafted,Naive Bayes,0.9757,0.0073,0.9757 +/- 0.0073,0.9728,0.9708,0.9756,0.9732
+5,Condition A (Full Text),Handcrafted,Decision Tree,0.9856,0.0029,0.9856 +/- 0.0029,0.9819,0.9852,0.9788,0.982
+6,Condition A (Full Text),Handcrafted,k-NN,0.9905,0.0032,0.9905 +/- 0.0032,0.9951,0.9935,0.9967,0.9951
+7,Condition B (Truncated 50 Words),TF-IDF,Naive Bayes,0.9394,0.0053,0.9394 +/- 0.0053,0.9448,0.9462,0.9446,0.9454
+8,Condition B (Truncated 50 Words),TF-IDF,Decision Tree,0.8674,0.0091,0.8674 +/- 0.0091,0.8682,0.8861,0.8485,0.8669
+9,Condition B (Truncated 50 Words),TF-IDF,k-NN,0.9123,0.0112,0.9123 +/- 0.0112,0.9292,0.8952,0.9739,0.9329
+10,Condition B (Truncated 50 Words),Handcrafted,Naive Bayes,0.7485,0.0221,0.7485 +/- 0.0221,0.7661,0.7279,0.8583,0.7877
+11,Condition B (Truncated 50 Words),Handcrafted,Decision Tree,0.8558,0.0087,0.8558 +/- 0.0087,0.8707,0.8764,0.8664,0.8714
+12,Condition B (Truncated 50 Words),Handcrafted,k-NN,0.8365,0.0087,0.8365 +/- 0.0087,0.8336,0.8344,0.8371,0.8358
